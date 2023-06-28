@@ -122,7 +122,8 @@ let package = Package(
                 .vulkan,
                 .nfd,
             ],
-            swiftSettings: swiftSettings
+            swiftSettings: swiftSettings,
+            linkerSettings: [.unsafeFlags(["-L/opt/homebrew/lib","-lvulkan"])]
         ),
         .target(
             name: "CPUBackendDemoApp",
