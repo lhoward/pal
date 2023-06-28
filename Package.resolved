@@ -20,12 +20,12 @@
         }
       },
       {
-        "package": "SDL2",
-        "repositoryURL": "https://github.com/ctreffs/SwiftSDL2.git",
+        "package": "SDL",
+        "repositoryURL": "https://github.com/lhoward/SwiftSDL2.git",
         "state": {
-          "branch": null,
-          "revision": "4f8f75880348c85db9289974fcbefcf3fce9d6fb",
-          "version": "1.3.2"
+          "branch": "inferno",
+          "revision": "50278a2847596714fdf8d5e5a92f644059c356fc",
+          "version": null
         }
       },
       {
